@@ -1,0 +1,5 @@
+This work "New York Cycling Safety Data", is provided under NYC Open Data Terms.
+The original data has been provided by "NYC OpenData" with the name "Motor Vehicle Collisions - Crashes" and can be viewed online at <https://data.cityofnewyork.us/Public-Safety/Motor-Vehicle-Collisions-Crashes/h9gi-nx95> under the same license.
+You should have received a copy of the license along with this work. If not, please see <http://www.nyc.gov/html/data/about.html> and <http://www.nyc.gov/html/data/terms.html>.
+The adapted version of the cycling safety data has been been created by Miguel Costa, Carlos Roque, Manuel Marques, and Filipe Moura.
+No warranties are given.

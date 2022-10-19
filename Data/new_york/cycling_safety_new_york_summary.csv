@@ -1,0 +1,54 @@
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 40838 entries, 0 to 40837
+Data columns (total 35 columns):
+ #   Column                         Non-Null Count  Dtype  
+---  ------                         --------------  -----  
+ 0   Unnamed: 0                     40838 non-null  int64  
+ 1   CRASH DATE                     40838 non-null  object 
+ 2   CRASH TIME                     40838 non-null  object 
+ 3   BOROUGH                        34687 non-null  object 
+ 4   ZIP CODE                       34687 non-null  float64
+ 5   LATITUDE                       40838 non-null  float64
+ 6   LONGITUDE                      40838 non-null  float64
+ 7   LOCATION                       40838 non-null  object 
+ 8   ON STREET NAME                 35630 non-null  object 
+ 9   CROSS STREET NAME              30831 non-null  object 
+ 10  OFF STREET NAME                5173 non-null   object 
+ 11  NUMBER OF PERSONS INJURED      40836 non-null  float64
+ 12  NUMBER OF PERSONS KILLED       40836 non-null  float64
+ 13  NUMBER OF PEDESTRIANS INJURED  40838 non-null  int64  
+ 14  NUMBER OF PEDESTRIANS KILLED   40838 non-null  int64  
+ 15  NUMBER OF CYCLIST INJURED      40838 non-null  int64  
+ 16  NUMBER OF CYCLIST KILLED       40838 non-null  int64  
+ 17  NUMBER OF MOTORIST INJURED     40838 non-null  int64  
+ 18  NUMBER OF MOTORIST KILLED      40838 non-null  int64  
+ 19  CONTRIBUTING FACTOR VEHICLE 1  40796 non-null  object 
+ 20  CONTRIBUTING FACTOR VEHICLE 2  37678 non-null  object 
+ 21  CONTRIBUTING FACTOR VEHICLE 3  1025 non-null   object 
+ 22  CONTRIBUTING FACTOR VEHICLE 4  101 non-null    object 
+ 23  CONTRIBUTING FACTOR VEHICLE 5  35 non-null     object 
+ 24  COLLISION_ID                   40838 non-null  int64  
+ 25  VEHICLE TYPE CODE 1            40838 non-null  object 
+ 26  VEHICLE TYPE CODE 2            37323 non-null  object 
+ 27  VEHICLE TYPE CODE 3            2185 non-null   object 
+ 28  VEHICLE TYPE CODE 4            1181 non-null   object 
+ 29  VEHICLE TYPE CODE 5            161 non-null    object 
+ 30  Date                           40838 non-null  object 
+ 31  Longitude                      40838 non-null  float64
+ 32  Latitude                       40838 non-null  float64
+ 33  geometry                       40838 non-null  object 
+ 34  index_right                    40838 non-null  int64  
+dtypes: float64(7), int64(9), object(19)
+memory usage: 10.9+ MB
+
+---------------------------------
+
+,Unnamed: 0,ZIP CODE,LATITUDE,LONGITUDE,NUMBER OF PERSONS INJURED,NUMBER OF PERSONS KILLED,NUMBER OF PEDESTRIANS INJURED,NUMBER OF PEDESTRIANS KILLED,NUMBER OF CYCLIST INJURED,NUMBER OF CYCLIST KILLED,NUMBER OF MOTORIST INJURED,NUMBER OF MOTORIST KILLED,COLLISION_ID,Longitude,Latitude,index_right
+count,40838.0,34687.0,40838.0,40838.0,40836.0,40836.0,40838.0,40838.0,40838.0,40838.0,40838.0,40838.0,40838.0,40838.0,40838.0,40838.0
+mean,818106.94421862,10756.551186323406,40.72486653530535,-73.94204699553113,0.809530806151435,0.003305906553041434,0.02926196189823204,0.000269356971448161,0.7598560164552622,0.0029139526911210146,0.020250746853420834,0.00012243498702189137,2784521.921421225,-73.94204699553113,40.72486653530535,0.0
+std,478060.2112062048,583.6712421562979,0.06652156867344398,0.058808186353028376,0.4626500560137412,0.06831127887819671,0.17621309699022938,0.03168467963166918,0.43955077816183696,0.05435538531434828,0.19205339749555572,0.011064492508352659,1557993.518294129,0.058808186353028376,0.06652156867344398,0.0
+min,62.0,10000.0,40.505013,-74.24828,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,37.0,-74.24828,40.505013,0.0
+25%,418760.25,10027.0,40.6801883,-73.983080525,1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1013113.5,-73.983080525,40.6801883,0.0
+50%,820383.5,11204.0,40.7250195,-73.9534678,1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,3516175.0,-73.9534678,40.7250195,0.0
+75%,1206703.0,11226.0,40.762178725,-73.913157825,1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,3923504.5,-73.913157825,40.762178725,0.0
+max,1646152.0,11697.0,40.9109,-73.70099,22.0,8.0,7.0,6.0,4.0,2.0,21.0,1.0,4282986.0,-73.70099,40.9109,0.0
