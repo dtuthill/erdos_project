@@ -1,0 +1,5 @@
+This work "Seattle Cycling Safety Data", is provided under PDDL License.
+The original data has been provided by "City of Seattle GIS Program" with the name "Collisions" and can be viewed online at <http://data-seattlecitygis.opendata.arcgis.com/datasets/5b5c745e0f1f48e7a53acec63a0022ab_0> under the same license.
+You should have received a copy of the license along with this work. If not, please see <https://opendatacommons.org/licenses/pddl/summary/>.
+The adapted version of the cycling safety data has been been created by Miguel Costa, Carlos Roque, Manuel Marques, and Filipe Moura.
+No warranties are given.
