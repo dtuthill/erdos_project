@@ -1,2 +1,4 @@
 dft-road-casualty-statistics-casualty-1979-2021.csv
 *.geojson
+dft_traffic_counts_aadf.csv
+.ipynb_checkpoints/
