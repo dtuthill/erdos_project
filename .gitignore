@@ -2,3 +2,5 @@ Dan_data/
 Plots/
 .ipynb_checkpoints/
 Dan_greg_variants/
+Data/UK/cycling_safety_uk_gov.geojson
+Data/UK/dft_traffic_counts_aadf.csv
