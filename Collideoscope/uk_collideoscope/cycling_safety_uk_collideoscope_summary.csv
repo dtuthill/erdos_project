@@ -1,0 +1,39 @@
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 100048 entries, 0 to 100047
+Data columns (total 20 columns):
+ #   Column        Non-Null Count   Dtype  
+---  ------        --------------   -----  
+ 0   Unnamed: 0    100048 non-null  int64  
+ 1   Report ID     100048 non-null  int64  
+ 2   Title         100048 non-null  object 
+ 3   Category      100048 non-null  object 
+ 4   Created       100048 non-null  object 
+ 5   Confirmed     100048 non-null  object 
+ 6   Status        100048 non-null  object 
+ 7   Latitude      100048 non-null  float64
+ 8   Longitude     100048 non-null  float64
+ 9   Query         1364 non-null    object 
+ 10  Report URL    100048 non-null  object 
+ 11  Source        97934 non-null   object 
+ 12  Participants  80297 non-null   object 
+ 13  Date          100048 non-null  object 
+ 14  fatal         100048 non-null  int64  
+ 15  serious       100048 non-null  int64  
+ 16  slight        100048 non-null  int64  
+ 17  miss          100048 non-null  int64  
+ 18  geometry      100048 non-null  object 
+ 19  index_right   100048 non-null  int64  
+dtypes: float64(2), int64(7), object(11)
+memory usage: 15.3+ MB
+
+---------------------------------
+
+,Unnamed: 0,Report ID,Latitude,Longitude,fatal,serious,slight,miss,index_right
+count,100048.0,100048.0,100048.0,100048.0,100048.0,100048.0,100048.0,100048.0,100048.0
+mean,50025.52591755957,79660.92248720615,52.34523961517849,-1.1452118735772372,0.005667279705741244,0.1760155125539741,0.8008056133056133,0.017511594434671356,0.0
+std,28883.591146136663,28905.0371524596,1.3238122540427661,1.2820698603547949,0.07506808890348671,0.3808352682637402,0.3993965165274867,0.1311682524987913,0.0
+min,0.0,29571.0,49.920539,-6.389827,0.0,0.0,0.0,0.0,0.0
+25%,25011.75,54665.75,51.46474575,-2.0254190000000003,0.0,0.0,1.0,0.0,0.0
+50%,50023.5,79677.5,51.715266,-1.0280235,0.0,0.0,1.0,0.0,0.0
+75%,75040.25,104689.25,53.3366125,-0.13183875,0.0,0.0,1.0,0.0,0.0
+max,100052.0,129720.0,60.166839,1.758797,1.0,1.0,1.0,1.0,0.0

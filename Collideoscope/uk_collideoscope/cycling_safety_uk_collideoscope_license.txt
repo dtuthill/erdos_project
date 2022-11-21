@@ -1,0 +1,5 @@
+This work "UK Collideoscope Cycling Safety Data", is provided under no specified license.
+The original data has been provided by "ITP and Merseyside Road Safety Partnership" with the name "Collideoscope" and can be viewed online at <collideoscope.org.uk> under the same license.
+You should have received a copy of the license along with this work. If not, please see <collideoscope.org.uk>.
+The adapted version of the cycling safety data has been been created by Miguel Costa, Carlos Roque, Manuel Marques, and Filipe Moura.
+No warranties are given.
